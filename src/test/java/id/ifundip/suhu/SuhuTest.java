@@ -8,8 +8,8 @@ class SuhuTest {
 
 	@Test
 	public void suhuTest() {
-		Suhu suhu = new Suhu();
-		assertEquals(5, suhu.penjumlahan(2, 3));
+		Suhu semarang = new Suhu();
+		assertEquals(27, semarang.jumlah(13, 14));
+		assertEquals(15, semarang.selisih(18, 33));
 	}
-
 }
